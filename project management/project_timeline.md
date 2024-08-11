@@ -21,12 +21,10 @@
 
 ### Day 5-7: August 13th - August 15th
 
-**Task**: Wireframes, Data Flow Diagram, and Application Architecture Design
+**Task**: Wireframes and Design
 
 - Create wireframes for all key screens (homepage, property listing, booking page, user profile, admin dashboard) for multiple screen sizes.
 - Design logo, select fonts and colors.
-- Create Level 0 DDF, create level 1 DDF
-- Create high level pplication architecture diagram
 - Get feedback and iterate on designs.
 - **Priority**: High
 
@@ -36,9 +34,14 @@
 
 **Task**: Data Flow Diagram and Application Architecture Design
 
-- Create the data flow diagram (DFD).
+- Create the data flow diagrams, level 0 and level 1.
 - Design the application architecture diagram.
-- Review and iterate based on feedback.
+- **Priority**: High
+
+**Task**: Part A Submission
+
+- Update README for submission
+- submit Part A
 - **Priority**: High
 
 ### Day 10-11: August 18th - August 19th
