@@ -17,6 +17,7 @@
 
 - Gather detailed requirements and user stories.
 - Finalise user roles and scenarios.
+- Add to Kanban board with deadlines, priorities etc
 - **Priority**: High
 
 ### Day 5-7: August 13th - August 15th
@@ -41,6 +42,7 @@
 **Task**: Part A Submission
 
 - Update README for submission
+- Include Kanban board screenshots
 - submit Part A
 - **Priority**: High
 
