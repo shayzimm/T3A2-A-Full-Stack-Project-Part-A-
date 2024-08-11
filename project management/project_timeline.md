@@ -122,8 +122,6 @@
 - Rehearse the presentation as a team.
 - **Priority**: High
 
-## Week 4: August 31st - September 1st
-
 ### Day 23: August 30th
 
 **Task**: Presentation Day
@@ -131,9 +129,11 @@
 - Deliver the presentation, ensuring all aspects of the project are covered and well-rehearsed.
 - **Priority**: High
 
-### Day 24: September 1st
+## Week 4: August 31st - September 1st
 
-**Task**: Final Deployment and Documentation
+### Day 23: August 31st
+
+**Task**: Final Deployment
 
 - **Frontend**:
   - Perform final testing in the production environment.
@@ -142,6 +142,16 @@
   - Deploy the application to a cloud hosting service.
   - Ensure backend services are fully operational in production.
   - Finalise the README with backend setup, API documentation, and deployment details.
+- **Priority**: High
+
+### Day 24: September 1st
+
+**Task**: Final Submission, Tidying up and Documentation
+
+- Ensure all bugs are fixed
+- Tidy up documentation
+- Screenshots and images
+- Submit Part B
 - **Priority**: High
 
 ## Continuous Tasks
