@@ -35,7 +35,7 @@ Young, 20s to 30s, mostly from Sydney but also Canberra
     • User reviews and ratings
     • Admin dashboard to manage listings and bookings
     • Search and filtering options for future scalability
-Notifications - email and sms for booking confirmations, reminders, promos
+    • Notifications - email and sms for booking confirmations, reminders, promos
 
 #### How should payments be handled? (e.g., preferred payment gateways, security concerns)
 
@@ -43,7 +43,7 @@ Stripe, Paypal
 
 #### What details should be included in the property listings? (e.g., amenities, descriptions, photos, pricing)
 
-Description as per AirBnB, photos, vidoes, amenities, info about being off-grid, a 'What to expect' section so people aren't surprised by anything
+Description as per AirBnB, photos, videos, amenities, info about being off-grid, a 'What to expect' section so guests aren't surprised by the nature of rural, off-grid accomodation when they arrive.
 
 ### User Management:
 
