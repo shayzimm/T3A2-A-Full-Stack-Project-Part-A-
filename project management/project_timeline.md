@@ -16,7 +16,7 @@
 **Task**: Define User Stories and Requirements
 
 - Gather detailed requirements and user stories.
-- Finalize user roles and scenarios.
+- Finalise user roles and scenarios.
 - **Priority**: High
 
 ### Day 5-7: August 13th - August 15th
@@ -132,11 +132,11 @@
 
 - **Frontend**:
   - Perform final testing in the production environment.
-  - Finalize the README with details about the frontend setup and deployment.
+  - Finalise the README with details about the frontend setup and deployment.
 - **Backend**:
   - Deploy the application to a cloud hosting service.
   - Ensure backend services are fully operational in production.
-  - Finalize the README with backend setup, API documentation, and deployment details.
+  - Finalise the README with backend setup, API documentation, and deployment details.
 - **Priority**: High
 
 ## Continuous Tasks
