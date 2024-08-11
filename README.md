@@ -36,7 +36,7 @@ The Dataflow Diagram represents the flow of data within the Tiny Home Accommodat
 
 ![Dataflow Diagram](path/to/dataflow-diagram.png)
 
-*Explanation of key data flows, external entities, processes, and data stores can be provided here.*
+*Explanation of key data flows, external entities, processes, and data stores provided here.*
 
 ---
 
@@ -48,7 +48,7 @@ The Application Architecture Diagram outlines the high-level structure of the ap
 
 ![Application Architecture Diagram](path/to/application-architecture-diagram.png)
 
-*Explanation of how the different components interact within the app can be provided here.*
+*Explanation of how the different components interact within the app included here.*
 
 ---
 
@@ -56,13 +56,7 @@ The Application Architecture Diagram outlines the high-level structure of the ap
 
 User stories are essential to understanding the features from the end user's perspective. Each story focuses on a specific feature or requirement of the app.
 
-### Sample User Stories
-
-- **As a user, I want to register and log in to the application so that I can access personalized features.**
-- **As a user, I want to view available tiny homes so that I can decide which one to book.**
-- **As an admin, I want to manage property listings so that I can update, add, or delete properties.**
-
-*The full list of user stories with detailed acceptance criteria can be included here.*
+*The full list of user stories with detailed acceptance criteria included here.*
 
 ---
 
@@ -91,7 +85,7 @@ Wireframes provide a visual representation of the app's layout for various scree
 
 ### Trello Board
 
-We are using Trello to manage our project tasks, track progress, and collaborate as a team. The board is organized into columns such as "To Do," "In Progress," and "Done" to reflect the current status of each task.
+We are using Trello to manage our project tasks, track progress, and collaborate as a team. The board is organised into columns such as "To Do," "In Progress," and "Done" to reflect the current status of each task.
 
 ### Screenshots
 
@@ -106,24 +100,16 @@ We are using Trello to manage our project tasks, track progress, and collaborate
 
 ---
 
-## Conclusion
-
-Part A of the Tiny Home Accommodation Booking App outlines the foundational aspects of the project, including the purpose, functionality, and design. The dataflow and architecture diagrams, along with the wireframes and user stories, provide a comprehensive overview of the app's structure and intended user experience.
-
-We look forward to building upon this foundation in Part B, where we will implement the app's functionality and deploy it to a live environment.
-
----
-
 ## Appendix
 
 ### References
 
 - **Technology Documentation**: Links to documentation for React.js, Node.js, MongoDB, etc.
-- **Design Tools**: Figma, Adobe XD (whichever was used for wireframing)
-- **Project Management**: Trello, Jira, or any other tool used for task management.
+- **Design Tools**: Figma
+- **Project Management**: Trello
 
 ### Contributors
 
-- **Shay Zimmerle** - Full Stack Developer
-- **Jemma Larosa** - Backend Developer
-- **Jonathon Ow** - Frontend Developer
+- **Shay Zimmerle**
+- **Jemma Larosa**
+- **Jonathon Ow**
