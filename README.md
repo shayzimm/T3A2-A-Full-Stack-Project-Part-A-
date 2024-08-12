@@ -266,7 +266,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
 ### Implementation Notes
 
 - Follow security best practices for authentication and data handling.
-- Optimize state management and API interactions for performance.
+- Optimise state management and API interactions for performance.
 - Plan for scalability in both database design and application architecture.
 
 ### Integration Points
@@ -279,9 +279,253 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
 
 ## R4: User Stories
 
-User stories are essential to understanding the features from the end user's perspective. Each story focuses on a specific feature or requirement of the app.
+## 1. User Authentication
 
-*The full list of user stories with detailed acceptance criteria included here.*
+- **User Story 1**: As a user, I want to register an account so that I can log in and access personalised features.
+  - **Acceptance Criteria**:
+    - User can register with an email and password.
+    - User receives a confirmation email after registration.
+    - Passwords are securely hashed and stored.
+  - **Checklist**:
+    - [ ] Design registration form UI.
+    - [ ] Implement backend logic for user registration.
+    - [ ] Set up email confirmation process.
+    - [ ] Implement password hashing and storage.
+    - [ ] Test registration flow end-to-end.
+
+- **User Story 2**: As a user, I want to log in to my account so that I can access my profile and booking history.
+  - **Acceptance Criteria**:
+    - User can log in with their registered email and password.
+    - User receives a JWT token upon successful login.
+    - Invalid login attempts are handled with appropriate error messages.
+  - **Checklist**:
+    - [ ] Design login form UI.
+    - [ ] Implement backend logic for user authentication.
+    - [ ] Set up JWT token generation and storage.
+    - [ ] Handle error messages for invalid login attempts.
+    - [ ] Test login flow with valid and invalid credentials.
+
+- **User Story 3**: As a user, I want to reset my password so that I can regain access to my account if I forget my password.
+  - **Acceptance Criteria**:
+    - User can request a password reset by providing their email.
+    - User receives an email with a password reset link.
+    - User can reset the password using the provided link.
+  - **Checklist**:
+    - [ ] Design password reset request UI.
+    - [ ] Implement backend logic for password reset requests.
+    - [ ] Set up email with reset link functionality.
+    - [ ] Implement password reset form and logic.
+    - [ ] Test password reset process from request to completion.
+
+## 2. Property Listing/s
+
+- **User Story 4**: As a user, I want to browse available properties (single listing initially) so that I can choose the best one for my stay.
+  - **Acceptance Criteria**:
+    - User can view a list of properties with thumbnails, names, locations, and prices.
+    - User can filter properties by location, price range, and amenities.
+    - Property availability is clearly indicated.
+  - **Checklist**:
+    - [ ] Design property listing page UI.
+    - [ ] Implement backend API to retrieve properties.
+    - [ ] Develop frontend to display properties with filtering options.
+    - [ ] Display property availability status.
+    - [ ] Test property listing and filtering functionality.
+
+- **User Story 5**: As a user, I want to view detailed information about a property so that I can decide if it meets my needs.
+  - **Acceptance Criteria**:
+    - User can view detailed property descriptions, images, amenities, and reviews.
+    - User can see the price per night and availability for selected dates.
+  - **Checklist**:
+    - [ ] Design property detail page UI.
+    - [ ] Implement backend API to retrieve property details.
+    - [ ] Display property images, descriptions, amenities, and reviews.
+    - [ ] Show price per night and availability for selected dates.
+    - [ ] Test the property detail page for accurate data display.
+
+## 3. Booking System
+
+- **User Story 6**: As a user, I want to check the availability of a property for my selected dates so that I can book it if it’s available.
+  - **Acceptance Criteria**:
+    - User can select check-in and check-out dates using a date picker.
+    - The system checks the availability of the property for the selected dates.
+    - User receives immediate feedback on availability.
+  - **Checklist**:
+    - [ ] Design booking date selection UI.
+    - [ ] Implement date picker functionality.
+    - [ ] Develop backend API to check property availability.
+    - [ ] Display availability status based on selected dates.
+    - [ ] Test availability check process with different date ranges.
+
+- **User Story 7**: As a user, I want to book a property so that I can secure my stay for the selected dates.
+  - **Acceptance Criteria**:
+    - User can fill out a booking form with personal details and preferences.
+    - User sees a summary of their booking before confirming.
+    - Booking confirmation is provided after successful payment.
+  - **Checklist**:
+    - [ ] Design booking form UI.
+    - [ ] Implement backend logic for booking creation.
+    - [ ] Display booking summary before confirmation.
+    - [ ] Integrate payment gateway for booking confirmation.
+    - [ ] Test end-to-end booking process.
+
+- **User Story 8**: As a user, I want to receive a confirmation of my booking via email so that I have a record of my reservation.
+  - **Acceptance Criteria**:
+    - User receives an email with booking details, including dates, property name, and total cost.
+    - Email contains instructions for check-in and contact information.
+  - **Checklist**:
+    - [ ] Set up email notification service.
+    - [ ] Create email templates for booking confirmation.
+    - [ ] Implement backend logic to trigger email on booking confirmation.
+    - [ ] Ensure booking details are accurately reflected in the email.
+    - [ ] Test email notification for different booking scenarios.
+
+- **User Story 9**: As an admin, I want to view and manage all bookings so that I can keep track of reservations and availability.
+  - **Acceptance Criteria**:
+    - Admin can view a list of all bookings with details such as dates, user information, and status.
+    - Admin can modify or cancel bookings if necessary.
+    - Booking statuses (e.g., confirmed, pending, cancelled) are clearly indicated.
+  - **Checklist**:
+    - [ ] Design admin booking management UI.
+    - [ ] Implement backend API to retrieve and manage bookings.
+    - [ ] Enable admin to modify or cancel bookings.
+    - [ ] Display booking statuses and details clearly.
+    - [ ] Test admin booking management functionality.
+
+## 4. Payment Integration
+
+- **User Story 10**: As a user, I want to securely pay for my booking using my credit card so that I can confirm my reservation.
+  - **Acceptance Criteria**:
+    - User can enter credit card information securely.
+    - Payment is processed through a third-party service like Stripe.
+    - User receives a payment confirmation upon successful transaction.
+  - **Checklist**:
+    - [ ] Design payment form UI.
+    - [ ] Integrate Stripe (or other payment gateway) for payment processing.
+    - [ ] Implement secure handling of payment data.
+    - [ ] Generate and display payment confirmation.
+    - [ ] Test payment process from start to finish.
+
+- **User Story 11**: As an admin, I want to view payment transactions so that I can track revenue and manage financial records.
+  - **Acceptance Criteria**:
+    - Admin can view a list of all payment transactions, including amounts, dates, and booking IDs.
+    - Admin can issue refunds if necessary.
+  - **Checklist**:
+    - [ ] Design admin payment management UI.
+    - [ ] Implement backend API to retrieve payment transactions.
+    - [ ] Enable admin to view transaction details and issue refunds.
+    - [ ] Test payment transaction tracking and refund process.
+
+## 5. User Profile Management
+
+- **User Story 12**: As a user, I want to view and edit my profile information so that my details are up to date.
+  - **Acceptance Criteria**:
+    - User can view their profile information, including name, email, and booking history.
+    - User can update their personal details and save changes.
+    - Profile updates are reflected immediately.
+  - **Checklist**:
+    - [ ] Design user profile page UI.
+    - [ ] Implement backend API to retrieve and update user profile.
+    - [ ] Develop frontend logic to handle profile updates.
+    - [ ] Ensure real-time update of profile information.
+    - [ ] Test profile management functionality for accuracy.
+
+- **User Story 13**: As a user, I want to view my booking history so that I can keep track of my past and upcoming stays.
+  - **Acceptance Criteria**:
+    - User can view a list of past and upcoming bookings with details such as dates, property names, and statuses.
+    - User can click on a booking to view more details or make changes.
+  - **Checklist**:
+    - [ ] Design booking history UI.
+    - [ ] Implement backend API to retrieve booking history.
+    - [ ] Display past and upcoming bookings clearly.
+    - [ ] Enable interaction with booking details for further actions.
+    - [ ] Test booking history display and functionality.
+
+## 6. Admin Dashboard
+
+- **User Story 14**: As an admin, I want to add, update, and delete property listings so that I can manage the available accommodations.
+  - **Acceptance Criteria**:
+    - Admin can create new property listings with details such as name, description, location, and price.
+    - Admin can update existing property details.
+    - Admin can delete property listings that are no longer available.
+  - **Checklist**:
+    - [ ] Design admin property management UI.
+    - [ ] Implement backend API for CRUD operations on properties.
+    - [ ] Enable admin to add, update, and delete properties.
+    - [ ] Ensure real-time updates to property listings.
+    - [ ] Test property management functionality for accuracy.
+
+- **User Story 15**: As an admin, I want to manage user accounts so that I can handle customer inquiries and issues.
+  - **Acceptance Criteria**:
+    - Admin can view a list of all users with their profiles and booking history.
+    - Admin can update user roles (e.g., upgrade a user to an admin).
+    - Admin can deactivate or delete user accounts if necessary.
+  - **Checklist**:
+    - [ ] Design admin user management UI.
+    - [ ] Implement backend API to retrieve and manage user accounts.
+    - [ ] Enable admin to update user roles and deactivate accounts.
+    - [ ] Ensure safe handling of user data during updates.
+    - [ ] Test user management functionality for completeness.
+
+## 7. User Reviews and Ratings
+
+- **User Story 16**: As a user, I want to leave a review and rate my stay so that I can share my experience with others.
+  - **Acceptance Criteria**:
+    - User can submit a review and rating after their stay.
+    - Review is displayed on the property listing page after admin approval.
+    - User can edit or delete their review if needed.
+  - **Checklist**:
+    - [ ] Design review submission UI.
+    - [ ] Implement backend API to handle reviews and ratings.
+    - [ ] Develop frontend logic for displaying reviews.
+    - [ ] Enable admin review moderation.
+    - [ ] Test review submission, moderation, and display functionality.
+
+- **User Story 17**: As an admin, I want to moderate reviews so that only appropriate content is displayed on the site.
+  - **Acceptance Criteria**:
+    - Admin can review and approve or reject user reviews.
+    - Admin can edit or delete reviews that violate guidelines.
+  - **Checklist**:
+    - [ ] Design admin review moderation UI.
+    - [ ] Implement backend logic for review approval and rejection.
+    - [ ] Enable admin to edit or delete reviews as necessary.
+    - [ ] Test moderation process to ensure proper functionality.
+
+## 8. Notifications
+
+- **User Story 18**: As a user, I want to receive notifications about my bookings and payment status so that I am always informed.
+  - **Acceptance Criteria**:
+    - User receives email notifications for booking confirmations, cancellations, and payment receipts.
+    - User can opt-in for SMS notifications for reminders or urgent updates.
+  - **Checklist**:
+    - [ ] Set up email and SMS notification services.
+    - [ ] Implement backend logic to trigger notifications.
+    - [ ] Create notification templates for different scenarios.
+    - [ ] Enable user preference settings for notifications.
+    - [ ] Test notifications for accuracy and timeliness.
+
+- **User Story 19**: As an admin, I want to be notified of new bookings and cancellations so that I can manage the properties effectively.
+  - **Acceptance Criteria**:
+    - Admin receives notifications for new bookings, cancellations, and user inquiries.
+    - Notifications include relevant details such as booking ID, user information, and dates.
+  - **Checklist**:
+    - [ ] Set up admin notification system.
+    - [ ] Implement backend logic for triggering admin notifications.
+    - [ ] Ensure notifications contain all necessary information.
+    - [ ] Test admin notifications for various scenarios.
+
+## 9. Search and Filter
+
+- **User Story 20**: As a user, I want to search for properties based on specific criteria so that I can find accommodation that suits my needs.
+  - **Acceptance Criteria**:
+    - User can enter search criteria such as location, price range, and amenities.
+    - Search results are filtered based on the entered criteria.
+    - User can sort results by price, availability, or rating.
+  - **Checklist**:
+    - [ ] Design search and filter UI.
+    - [ ] Implement backend API to support search and filtering.
+    - [ ] Develop frontend logic for dynamic search and filtering.
+    - [ ] Enable sorting of results by various criteria.
+    - [ ] Test search and filter functionality for accuracy.
 
 ---
 
