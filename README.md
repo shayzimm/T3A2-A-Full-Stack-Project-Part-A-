@@ -93,7 +93,7 @@ The target audience for Yallambee Tiny Homes primarily includes young, professio
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: Passport.js, JWT
-- **Payment Processing**: Stripe API
+- **Payment Processing**: Stripe, PayPal
 - **Notifications**: Nodemailer (Email), Twilio (SMS)
 
 ---
@@ -300,7 +300,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
 #### External Services
 
 - **Payment Gateway (Future Feature):**
-  - **Options:** ShopPay, PayPal.
+  - **Options:** Stripe, PayPal.
 
 - **Notification Services (Future Feature):**
   - **Options:**
@@ -330,7 +330,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
 - **Express.js:** Web framework for RESTful APIs.
 - **MongoDB:** NoSQL database for data storage.
 - **JWT:** JSON Web Token for secure authentication.
-- **Payment Gateways:** ShopPay, PayPal (for future integration).
+- **Payment Gateways:** Stripe, PayPal (for future integration).
 - **Notification Services:** Nodemailer, Twilio (for future integration of email and SMS).
 
 #### Implementation Notes
