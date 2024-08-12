@@ -2,7 +2,7 @@
 
 ## 1. Users
 
-### Endpoint: `/api/user/register`
+### Endpoint: `/user/register`
 
 - **Method:** POST
 - **Description:** Register a new user.
@@ -21,7 +21,7 @@
 - **201 Created:** User registered successfully.
 - **400 Bad Request:** Missing fields or email already taken.
 
-### Endpoint: `/api/user/login`
+### Endpoint: `/user/login`
 
 - **Method:** POST
 - **Description:** Log in an existing user.
@@ -39,7 +39,7 @@
 - **200 OK:** Login successful, returns JWT token.
 - **401 Unauthorized:** Incorrect email or password.
 
-### Endpoint: `/api/user/profile`
+### Endpoint: `/user/profile`
 
 - **Method:** GET
 - **Description:** Retrieve the logged-in user’s profile.
@@ -50,7 +50,7 @@
 - **200 OK:** Returns user profile data.
 - **401 Unauthorized:** Invalid or expired token.
 
-### Endpoint: `/api/user/profile`
+### Endpoint: `/user/profile`
 
 - **Method:** PUT
 - **Description:** Update the logged-in user’s profile.
@@ -71,7 +71,7 @@
 - **400 Bad Request:** Invalid input data.
 - **401 Unauthorized:** Invalid or expired token.
 
-### Endpoint: `/api/user/profile`
+### Endpoint: `/user/profile`
 
 - **Method:** DELETE
 - **Description:** Delete the logged-in user’s account.
@@ -84,7 +84,7 @@
 
 ## 2. Property Listing/s
 
-### Endpoint: `/api/properties`
+### Endpoint: `/properties`
 
 - **Method:** GET
 - **Description:** Retrieve a list of all available properties.
@@ -97,7 +97,7 @@
 
 - **200 OK:** Returns a list of properties.
 
-### Endpoint: `/api/properties/:id`
+### Endpoint: `/properties/:id`
 
 - **Method:** GET
 - **Description:** Retrieve details of a specific property.
@@ -109,11 +109,11 @@
 - **200 OK:** Returns property details.
 - **404 Not Found:** Property with the specified ID not found.
 
-### Endpoint: `/api/properties`
+### Endpoint: `/properties`
 
 - **Method:** POST
 - **Description:** Add a new property (Admin only).
-- **Headers: Authorization:** Bearer <jwt-token-string>
+- **Headers: Authorization:** Bearer `<jwt-token-string>`
 - **Request Body:**
 
 ```json
@@ -133,11 +133,11 @@
 - **401 Unauthorized:** User is not an admin.
 - **400 Bad Request:** Missing or invalid fields.
 
-### Endpoint: /api/properties/:id
+### Endpoint: `/properties/:id`
 
 - **Method:** PUT
 - **Description:** Update an existing property (Admin only).
-- **Headers:** Authorization: Bearer <jwt-token-string>
+- **Headers:** Authorization: Bearer `<jwt-token-string>`
 - **Path Parameters:**
   - **id:** The ID of the property to update.
 - **Request Body:**
@@ -160,11 +160,11 @@
 - **401 Unauthorized:** User is not an admin.
 - **404 Not Found:** Property with the specified ID not found.
 
-### Endpoint: `/api/properties/:id`
+### Endpoint: `/properties/:id`
 
 - **Method:** PATCH
 - **Description:** Partially update an existing property (Admin only).
-- **Headers:** Authorization: Bearer <jwt-token-string>
+- **Headers:** Authorization: Bearer `<jwt-token-string>`
 - **Path Parameters:**
   - **id:** The ID of the property to update.
 - **Request Body (Example):**
@@ -182,11 +182,11 @@
 - **401 Unauthorized:** User is not an admin.
 - **404 Not Found:** Property with the specified ID not found.
 
-### Endpoint: /api/properties/:id
+### Endpoint: `/properties/:id`
 
 - **Method:** DELETE
 - **Description:** Delete an existing property (Admin only).
-- **Headers:** Authorization: Bearer <jwt-token-string>
+- **Headers:** Authorization: Bearer `<jwt-token-string>`
 - **Path Parameters:**
   - **id:** The ID of the property to delete.
 
@@ -198,7 +198,7 @@
 
 ## 3. Bookings
 
-### Endpoint: `/api/bookings`
+### Endpoint: `/bookings`
 
 - **Method:** GET
 - **Description:** Retrieve a list of all bookings (Admin only).
@@ -209,11 +209,11 @@
 - **200 OK:** Returns a list of bookings.
 - **401 Unauthorized:** User is not an admin.
 
-### Endpoint: `/api/bookings/:id`
+### Endpoint: `/bookings/:id`
 
 - **Method:** GET
 - **Description:** Retrieve details of a specific booking.
-- **Headers:** Authorization: Bearer <jwt-token-string>
+- **Headers:** Authorization: Bearer `<jwt-token-string>`
 - **Path Parameters:**
   - **id:** The ID of the booking to retrieve.
 
@@ -223,7 +223,7 @@
 - **401 Unauthorized:** User is not authenticated or lacks permission.
 - **404 Not Found:** Booking with the specified ID not found.
 
-### Endpoint: `/api/bookings`
+### Endpoint: `/bookings`
 
 - **Method:** POST
 - **Description:** Create a new booking.
@@ -245,7 +245,7 @@
 - **400 Bad Request:** Missing or invalid fields.
 - **401 Unauthorized:** User is not authenticated.
 
-### Endpoint: `/api/bookings/:id`
+### Endpoint: `/bookings/:id`
 
 - **Method:** PUT
 - **Description:** Update an existing booking.
@@ -269,78 +269,95 @@
 - **401 Unauthorized:** User is not authenticated or lacks permission.
 - **404 Not Found:** Booking with the specified ID not found.
 
-### Endpoint: `/api/bookings/:id`
+### Endpoint: `/bookings/:id`
 
-    • Method: PATCH
-    • Description: Partially update an existing booking.
-    • Headers: Authorization: Bearer <jwt-token-string>
-    • Path Parameters:
-        ○ id: The ID of the booking to update.
-    • Request Body (Example):
+- **Method:** PATCH
+- **Description:** Partially update an existing booking.
+- **Headers:** Authorization: Bearer `<jwt-token-string>`
+- **Path Parameters:**
+  - **id:** The ID of the booking to update.
+- **Request Body (Example):**
 
+```json
 {
   "guests": 4
 }
+```
 
-    • Response:
-        ○ 200 OK: Booking updated successfully.
-        ○ 400 Bad Request: Invalid input data.
-        ○ 401 Unauthorized: User is not authenticated or lacks permission.
-        ○ 404 Not Found: Booking with the specified ID not found.
+**Response:**
 
-### Endpoint: `/api/bookings/:id`
+- **200 OK:** Booking updated successfully.
+- **400 Bad Request:** Invalid input data.
+- **401 Unauthorized:** User is not authenticated or lacks permission.
+- **404 Not Found:** Booking with the specified ID not found.
 
-    • Method: DELETE
-    • Description: Cancel an existing booking.
-    • Headers: Authorization: Bearer <jwt-token-string>
-    • Path Parameters:
-        ○ id: The ID of the booking to cancel.
-    • Response:
-        ○ 200 OK: Booking cancelled successfully.
-        ○ 401 Unauthorized: User is not authenticated or lacks permission.
-        ○ 404 Not Found: Booking with the specified ID not found.
+### Endpoint: `/bookings/:id`
 
-4. Payment API
-Endpoint: /api/payments
-    • Method: GET
-    • Description: Retrieve a list of all payments (Admin only).
-    • Headers: Authorization: Bearer <jwt-token-string>
-    • Response:
-        ○ 200 OK: Returns a list of payments.
-        ○ 401 Unauthorized: User is not an admin.
+- **Method:** DELETE
+- **Description:** Cancel an existing booking.
+- **Headers:** Authorization: Bearer `<jwt-token-string>`
+- **Path Parameters:**
+  - **id:** The ID of the booking to cancel.
 
-Endpoint: /api/payments/charge
-    • Method: POST
-    • Description: Process a payment for a booking.
-    • Headers: Authorization: Bearer <jwt-token-string>
-    • Request Body:
+**Response:**
 
+- **200 OK:** Booking cancelled successfully.
+- **401 Unauthorized:** User is not authenticated or lacks permission.
+- **404 Not Found:** Booking with the specified ID not found.
+
+## 4. Payments
+
+### Endpoint: `/payments`
+
+- **Method:** GET
+- **Description:** Retrieve a list of all payments (Admin only).
+- **Headers:** Authorization: Bearer `<jwt-token-string>`
+
+**Response:**
+
+- **200 OK:** Returns a list of payments.
+- **401 Unauthorized:** User is not an admin.
+
+### Endpoint: `/payments/charge`
+
+- **Method:** POST
+- **Description:** Process a payment for a booking.
+- **Headers:** Authorization: Bearer `<jwt-token-string>`
+- **Request Body:**
+
+```json
 {
   "bookingId": "60d0fe4f5311236168a109cd",
   "paymentMethod": "stripe",
   "amount": 600,
-  "currency": "USD"
+  "currency": "AUD"
 }
+```
 
-    • Response:
-        ○ 200 OK: Payment processed successfully.
-        ○ 400 Bad Request: Payment failed or invalid payment method.
-        ○ 401 Unauthorized: User is not authenticated.
+**Response:**
 
-Endpoint: /api/payments/:id/refund
-    • Method: POST
-    • Description: Refund a payment for a booking.
-    • Headers: Authorization: Bearer <jwt-token-string>
-    • Path Parameters:
-        ○ id: The ID of the payment to refund.
-    • Request Body (Optional):
+- **200 OK:** Payment processed successfully.
+- **400 Bad Request:** Payment failed or invalid payment method.
+- **401 Unauthorized:** User is not authenticated.
 
+### Endpoint: `/payments/:id/refund`
+
+- **Method:** POST
+- **Description:** Refund a payment for a booking.
+- **Headers:** Authorization: Bearer `<jwt-token-string>`
+- **Path Parameters:**
+  - **id:** The ID of the payment to refund.
+- **Request Body (Optional):**
+
+```json
 {
   "amount": 600
 }
+```
 
-    • Response:
-        ○ 200 OK: Refund processed successfully.
-        ○ 400 Bad Request: Refund failed or invalid request.
-        ○ 401 Unauthorized: User is not authenticated.
-        ○ 404 Not Found: Payment with the specified ID not found.
+**Response:**
+
+- **200 OK:** Refund processed successfully.
+- **400 Bad Request:** Refund failed or invalid request.
+- **401 Unauthorized:** User is not authenticated.
+- **404 Not Found:** Payment with the specified ID not found.
