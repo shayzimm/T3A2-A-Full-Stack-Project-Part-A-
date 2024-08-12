@@ -391,7 +391,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
     - [ ] Display booking statuses and details clearly.
     - [ ] Test admin booking management functionality.
 
-### 4. Payment Integration
+### 4. Payment Integration (NOT MVP)
 
 - **User Story 10**: As a user, I want to securely pay for my booking using my credit card so that I can confirm my reservation.
   - **Acceptance Criteria**:
@@ -466,7 +466,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
     - [ ] Ensure safe handling of user data during updates.
     - [ ] Test user management functionality for completeness.
 
-### 7. User Reviews and Ratings
+### 7. User Reviews and Ratings (NOT MVP)
 
 - **User Story 16**: As a user, I want to leave a review and rate my stay so that I can share my experience with others.
   - **Acceptance Criteria**:
@@ -490,7 +490,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
     - [ ] Enable admin to edit or delete reviews as necessary.
     - [ ] Test moderation process to ensure proper functionality.
 
-### 8. Notifications
+### 8. Notifications (NOT MVP)
 
 - **User Story 18**: As a user, I want to receive notifications about my bookings and payment status so that I am always informed.
   - **Acceptance Criteria**:
