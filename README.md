@@ -112,4 +112,4 @@ We are using Trello to manage our project tasks, track progress, and collaborate
 
 - **Shay Zimmerle**
 - **Jemma Larosa**
-- **Jonathon Ow**
+- **Jonathan Ow**
