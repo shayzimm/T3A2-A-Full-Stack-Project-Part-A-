@@ -279,7 +279,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
 
 ## R4: User Stories
 
-## 1. User Authentication
+### 1. User Authentication
 
 - **User Story 1**: As a user, I want to register an account so that I can log in and access personalised features.
   - **Acceptance Criteria**:
@@ -317,7 +317,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
     - [ ] Implement password reset form and logic.
     - [ ] Test password reset process from request to completion.
 
-## 2. Property Listing/s
+### 2. Property Listing/s
 
 - **User Story 4**: As a user, I want to browse available properties (single listing initially) so that I can choose the best one for my stay.
   - **Acceptance Criteria**:
@@ -342,7 +342,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
     - [ ] Show price per night and availability for selected dates.
     - [ ] Test the property detail page for accurate data display.
 
-## 3. Booking System
+### 3. Booking System
 
 - **User Story 6**: As a user, I want to check the availability of a property for my selected dates so that I can book it if it’s available.
   - **Acceptance Criteria**:
@@ -391,7 +391,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
     - [ ] Display booking statuses and details clearly.
     - [ ] Test admin booking management functionality.
 
-## 4. Payment Integration
+### 4. Payment Integration
 
 - **User Story 10**: As a user, I want to securely pay for my booking using my credit card so that I can confirm my reservation.
   - **Acceptance Criteria**:
@@ -415,7 +415,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
     - [ ] Enable admin to view transaction details and issue refunds.
     - [ ] Test payment transaction tracking and refund process.
 
-## 5. User Profile Management
+### 5. User Profile Management
 
 - **User Story 12**: As a user, I want to view and edit my profile information so that my details are up to date.
   - **Acceptance Criteria**:
@@ -440,7 +440,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
     - [ ] Enable interaction with booking details for further actions.
     - [ ] Test booking history display and functionality.
 
-## 6. Admin Dashboard
+### 6. Admin Dashboard
 
 - **User Story 14**: As an admin, I want to add, update, and delete property listings so that I can manage the available accommodations.
   - **Acceptance Criteria**:
@@ -466,7 +466,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
     - [ ] Ensure safe handling of user data during updates.
     - [ ] Test user management functionality for completeness.
 
-## 7. User Reviews and Ratings
+### 7. User Reviews and Ratings
 
 - **User Story 16**: As a user, I want to leave a review and rate my stay so that I can share my experience with others.
   - **Acceptance Criteria**:
@@ -490,7 +490,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
     - [ ] Enable admin to edit or delete reviews as necessary.
     - [ ] Test moderation process to ensure proper functionality.
 
-## 8. Notifications
+### 8. Notifications
 
 - **User Story 18**: As a user, I want to receive notifications about my bookings and payment status so that I am always informed.
   - **Acceptance Criteria**:
