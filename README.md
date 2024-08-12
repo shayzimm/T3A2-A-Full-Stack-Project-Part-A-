@@ -588,6 +588,10 @@ As a team, we created a prospective [timeline](project_management/project_timeli
 
 We developed a Ways of Working document to enhance communication, collaboration, and efficiency within our team. We wanted to establish that everyone is aligned and working towards the same goals, with clear processes in place to support successful project completion. Please see [here](project_management/WaysOfWorking.md).
 
+### GitHub Workflow
+
+We have outlined our GitHub workflow and branching stategy [here](.github/step-by-step-github-workflow.md).
+
 ### Client Feedback
 
 We collated feedback and ideas from our client [here](project_management/client_feedback.md). This document will be used throughout the project and iterated with client feedback as the project progresses.
