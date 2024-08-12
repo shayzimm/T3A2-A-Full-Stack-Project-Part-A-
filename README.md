@@ -12,30 +12,30 @@
     - [Target Audience](#target-audience)
     - [Tech Stack](#tech-stack)
   - [R2: Dataflow Diagram](#r2-dataflow-diagram)
-  - [0 DFD (Context Diagram)](#0-dfd-context-diagram)
-    - [Purpose](#purpose-1)
-    - [External Entities](#external-entities)
-    - [System](#system)
-    - [Data Flows](#data-flows)
-  - [1 DFD (Level 1 DFD)](#1-dfd-level-1-dfd)
-    - [Purpose](#purpose-2)
-    - [Processes](#processes)
-    - [Data Stores](#data-stores)
-    - [Data Flows](#data-flows-1)
-    - [Diagram Overview](#diagram-overview)
+    - [0 DFD (Context Diagram)](#0-dfd-context-diagram)
+      - [Purpose](#purpose-1)
+      - [External Entities](#external-entities)
+      - [System](#system)
+      - [Data Flows](#data-flows)
+    - [1 DFD (Level 1 DFD)](#1-dfd-level-1-dfd)
+      - [Purpose](#purpose-2)
+      - [Processes](#processes)
+      - [Data Stores](#data-stores)
+      - [Data Flows](#data-flows-1)
+      - [Diagram Overview](#diagram-overview)
   - [R3: Application Architecture Diagram](#r3-application-architecture-diagram)
     - [Diagram](#diagram)
-  - [Overview](#overview)
-  - [Components](#components)
-    - [Front-End: ReactJS](#front-end-reactjs)
-    - [Back-End: Node.js with Express.js](#back-end-nodejs-with-expressjs)
-    - [Database: MongoDB](#database-mongodb)
-    - [External Services](#external-services)
-  - [Diagram Overview](#diagram-overview-1)
-  - [Supporting Documentation](#supporting-documentation)
-    - [Technical Specifications](#technical-specifications)
-    - [Implementation Notes](#implementation-notes)
-    - [Integration Points](#integration-points)
+    - [Overview](#overview)
+    - [Components](#components)
+      - [Front-End: ReactJS](#front-end-reactjs)
+      - [Back-End: Node.js with Express.js](#back-end-nodejs-with-expressjs)
+      - [Database: MongoDB](#database-mongodb)
+      - [External Services](#external-services)
+    - [Diagram Overview](#diagram-overview-1)
+    - [Supporting Documentation](#supporting-documentation)
+      - [Technical Specifications](#technical-specifications)
+      - [Implementation Notes](#implementation-notes)
+      - [Integration Points](#integration-points)
   - [R4: User Stories](#r4-user-stories)
     - [1. User Authentication](#1-user-authentication)
     - [2. Property Listing/s](#2-property-listings)
@@ -45,7 +45,7 @@
     - [6. Admin Dashboard](#6-admin-dashboard)
     - [7. User Reviews and Ratings](#7-user-reviews-and-ratings)
     - [8. Notifications](#8-notifications)
-  - [9. Search and Filter](#9-search-and-filter)
+    - [9. Search and Filter](#9-search-and-filter)
   - [R5: Wireframes](#r5-wireframes)
     - [Wireframes](#wireframes)
   - [R6: Project Management](#r6-project-management)
@@ -102,15 +102,15 @@ The target audience for Yallambee Tiny Homes primarily includes young, professio
 
 The Dataflow Diagram represents the flow of data within the Tiny Home Accommodation Booking App. It includes the processes that interact with data inputs and outputs, as well as data storage.
 
-## 0 DFD (Context Diagram)
+### 0 DFD (Context Diagram)
 
-### Purpose
+#### Purpose
 
 ![Dataflow Diagram 0](images/DFD_AAD/DFD_0.png)
 
 The 0 DFD provides a high-level overview of the system, showing the interactions between external entities and the web application.
 
-### External Entities
+#### External Entities
 
 1. **User**
    - **Interactions:**
@@ -125,12 +125,12 @@ The 0 DFD provides a high-level overview of the system, showing the interactions
      - Manages bookings
      - Manages reviews
 
-### System
+#### System
 
 - **Web Application**
   - Handles user requests and admin functions.
 
-### Data Flows
+#### Data Flows
 
 1. **User to Web Application:**
    - **Input Flows:**
@@ -150,15 +150,15 @@ The 0 DFD provides a high-level overview of the system, showing the interactions
    - **Output Flows:**
      - Updated listings, bookings, and reviews
 
-## 1 DFD (Level 1 DFD)
+### 1 DFD (Level 1 DFD)
 
 ![Dataflow Diagram 1](images/DFD_AAD/DFD_1.png)
 
-### Purpose
+#### Purpose
 
 The 1 DFD provides a detailed view of the main processes within the system and their interactions with data stores and external entities.
 
-### Processes
+#### Processes
 
 1. **1.1 Viewing Property Availability**
 2. **1.2 Booking System**
@@ -166,7 +166,7 @@ The 1 DFD provides a detailed view of the main processes within the system and t
 4. **1.4 Notification System**
 5. **1.5 Admin Functions**
 
-### Data Stores
+#### Data Stores
 
 1. **D1: Property Data Store**
    - Stores property details (descriptions, images, availability).
@@ -180,7 +180,7 @@ The 1 DFD provides a detailed view of the main processes within the system and t
 4. **D4: User Data Store**
    - Stores user profiles and authentication details.
 
-### Data Flows
+#### Data Flows
 
 1. **Viewing Property Availability (Process 1.1):**
    - **Input Flows:**
@@ -223,7 +223,7 @@ The 1 DFD provides a detailed view of the main processes within the system and t
    - **Data Interactions:**
      - Modify data in **Property Data Store**, **Booking Data Store**, and **Review Data Store**
 
-### Diagram Overview
+#### Diagram Overview
 
 - **Processes:**
   - **1.1:** Retrieves and displays available properties.
@@ -252,13 +252,13 @@ The Application Architecture Diagram outlines the high-level structure of the ap
 
 ![Application Architecture Diagram](images/DFD_AAD/AAD.png)
 
-## Overview
+### Overview
 
 Application Architecture Diagram outlines the high-level structure of Full Stack web application. It illustrates the major components, their interactions, and the technologies used. This application uses the MERN stack, including MongoDB, Express.js, ReactJS, and Node.js.
 
-## Components
+### Components
 
-### Front-End: ReactJS
+#### Front-End: ReactJS
 
 - **Components:**
   - **Homepage:** General information and navigation.
@@ -277,7 +277,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
 - **Integration:**
   - Connects to backend APIs for authentication, bookings, and reviews.
 
-### Back-End: Node.js with Express.js
+#### Back-End: Node.js with Express.js
 
 - **API Layer:**
   - **Routes:**
@@ -289,7 +289,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
 - **Business Logic:**
   - Handles authentication, booking logic, and administrative tasks.
 
-### Database: MongoDB
+#### Database: MongoDB
 
 - **Collections:**
   - **Users:** User profiles and authentication details.
@@ -297,7 +297,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
   - **Bookings:** Reservation details (user information, dates).
   - **Reviews:** User reviews and ratings.
 
-### External Services
+#### External Services
 
 - **Payment Gateway (Future Feature):**
   - **Options:** ShopPay, PayPal.
@@ -307,7 +307,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
     - **Email:** Nodemailer.
     - **SMS:** Twilio.
 
-## Diagram Overview
+### Diagram Overview
 
 - **Front-End:**
   - ReactJS components interact with the backend API layer for user actions.
@@ -321,9 +321,9 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
 - **External Services:**
   - Integrates with the backend for payment processing and notifications.
 
-## Supporting Documentation
+### Supporting Documentation
 
-### Technical Specifications
+#### Technical Specifications
 
 - **ReactJS:** Front-end library for building UIs.
 - **Node.js:** JavaScript runtime for server-side code.
@@ -333,13 +333,13 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
 - **Payment Gateways:** ShopPay, PayPal (for future integration).
 - **Notification Services:** Nodemailer, Twilio (for future integration of email and SMS).
 
-### Implementation Notes
+#### Implementation Notes
 
 - Follow security best practices for authentication and data handling.
 - Optimise state management and API interactions for performance.
 - Plan for scalability in both database design and application architecture.
 
-### Integration Points
+#### Integration Points
 
 - **Front-End:** Makes API calls to the Express.js backend for data operations.
 - **Back-End:** Manages business logic and interacts with MongoDB.
@@ -583,7 +583,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
     - [ ] Ensure notifications contain all necessary information.
     - [ ] Test admin notifications for various scenarios.
 
-## 9. Search and Filter
+### 9. Search and Filter
 
 - **User Story 20**: As a user, I want to search for properties based on specific criteria so that I can find accommodation that suits my needs.
   - **Acceptance Criteria**:
