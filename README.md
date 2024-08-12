@@ -36,7 +36,7 @@ The Dataflow Diagram represents the flow of data within the Tiny Home Accommodat
 
 ### Purpose
 
-![Dataflow Diagram 0](images/DFD_0.png)
+![Dataflow Diagram 0](images/DFD_AAD/DFD_0.png)
 
 The 0 DFD provides a high-level overview of the system, showing the interactions between external entities and the web application.
 
@@ -82,7 +82,7 @@ The 0 DFD provides a high-level overview of the system, showing the interactions
 
 ## 1 DFD (Level 1 DFD)
 
-![Dataflow Diagram 1](images/DFD_1.png)
+![Dataflow Diagram 1](images/DFD_AAD/DFD_1.png)
 
 ### Purpose
 
@@ -180,7 +180,7 @@ The Application Architecture Diagram outlines the high-level structure of the ap
 
 ### Diagram
 
-![Application Architecture Diagram](images/AAD.png)
+![Application Architecture Diagram](images/DFD_AAD/AAD.png)
 
 ## Overview
 
@@ -310,18 +310,37 @@ Wireframes provide a visual representation of the app's layout for various scree
 
 ### Trello Board
 
-We are using Trello to manage our project tasks, track progress, and collaborate as a team. The board is organised into columns such as "To Do," "In Progress," and "Done" to reflect the current status of each task.
+We are using Trello to manage our project tasks, track progress, and collaborate as a team. The board is organised into columns such as "Backlog", "Design", "To Do", "Doing", and "Done" to reflect the current status of each task.
+
+Our Kanban Board can be seen [here](https://trello.com/invite/b/66b2f86152f9d00b5467bbb8/ATTIe1afc6a791759e8fd5f9411c76de9561A7CDF884/full-stack-project).
 
 ### Screenshots
 
 - **Initial Setup**
-  ![Trello Board Initial Setup](path/to/trello-board-initial-setup.png)
+  ![Trello Board Initial Setup](images/Kanban_screenshots/Initial-kanban-setup-120824.PNG)
+  ![Trello Board Initial Setup with README powerup](images/Kanban_screenshots/Initial-Kanban-with-readme-power-up.PNG)
 - **Mid-Project Progress**
   ![Trello Board Mid-Project](path/to/trello-board-mid-project.png)
 - **Final Task Completion**
   ![Trello Board Final](path/to/trello-board-final.png)
 
 *Include a brief explanation of how the Trello board was used to manage the project timeline and task assignments.*
+
+### Project Timeline
+
+As a team, we created a prospective [timeline](project_management/project_timeline.md) to help us stay on track with our tasks and better manage the project.
+
+### Ways of Working
+
+We developed a Ways of Working document to enhance communication, collaboration, and efficiency within our team. We wanted to establish that everyone is aligned and working towards the same goals, with clear processes in place to support successful project completion. Please see [here](project_management/WaysOfWorking.md).
+
+### Client Feedback
+
+We collated feedback and ideas from our client [here](project_management/client_feedback.md). This document will be used throughout the project and iterated with client feedback as the project progresses.
+
+### API Specifications
+
+Our draft API specs can be found [here](project_management/API_specs.md).
 
 ---
 
