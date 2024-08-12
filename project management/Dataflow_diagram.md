@@ -4,6 +4,8 @@
 
 ### Purpose
 
+![Dataflow Diagram 0](T3A2-A-Full-Stack-Project-Part-A-/images/DFD_0.png)
+
 The 0 DFD provides a high-level overview of the system, showing the interactions between external entities and the web application.
 
 ### External Entities
@@ -47,6 +49,8 @@ The 0 DFD provides a high-level overview of the system, showing the interactions
      - Updated listings, bookings, and reviews
 
 ## 1 DFD (Level 1 DFD)
+
+![Dataflow Diagram 0](T3A2-A-Full-Stack-Project-Part-A-/images/DFD_1.png)
 
 ### Purpose
 

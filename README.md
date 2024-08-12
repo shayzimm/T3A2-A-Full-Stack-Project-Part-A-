@@ -34,7 +34,8 @@ The Dataflow Diagram represents the flow of data within the Tiny Home Accommodat
 
 ### Diagram
 
-![Dataflow Diagram](path/to/dataflow-diagram.png)
+![Dataflow Diagram 0](T3A2-A-Full-Stack-Project-Part-A-/images/DFD_0.png)
+![Dataflow Diagram 0](T3A2-A-Full-Stack-Project-Part-A-/images/DFD_1.png)
 
 *Explanation of key data flows, external entities, processes, and data stores provided here.*
 
@@ -46,7 +47,7 @@ The Application Architecture Diagram outlines the high-level structure of the ap
 
 ### Diagram
 
-![Application Architecture Diagram](path/to/application-architecture-diagram.png)
+![Application Architecture Diagram](/T3A2-A-Full-Stack-Project-Part-A-/images/AAD.png)
 
 *Explanation of how the different components interact within the app included here.*
 
