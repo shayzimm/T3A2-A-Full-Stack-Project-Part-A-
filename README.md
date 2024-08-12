@@ -36,7 +36,7 @@ The Dataflow Diagram represents the flow of data within the Tiny Home Accommodat
 
 ### Purpose
 
-![Dataflow Diagram 0](T3A2-A-Full-Stack-Project-Part-A-/images/DFD_0.png)
+![Dataflow Diagram 0](images/DFD_0.png)
 
 The 0 DFD provides a high-level overview of the system, showing the interactions between external entities and the web application.
 
@@ -82,7 +82,7 @@ The 0 DFD provides a high-level overview of the system, showing the interactions
 
 ## 1 DFD (Level 1 DFD)
 
-![Dataflow Diagram 1](T3A2-A-Full-Stack-Project-Part-A-/images/DFD_1.png)
+![Dataflow Diagram 1](images/DFD_1.png)
 
 ### Purpose
 
@@ -180,7 +180,7 @@ The Application Architecture Diagram outlines the high-level structure of the ap
 
 ### Diagram
 
-![Application Architecture Diagram](/T3A2-A-Full-Stack-Project-Part-A-/images/AAD.png)
+![Application Architecture Diagram](images/AAD.png)
 
 ## Overview
 
