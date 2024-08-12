@@ -25,7 +25,7 @@ For admin users, the platform offers robust tools to manage property listings, o
 
 ### Target Audience
 
-The target audience includes travelers looking for unique accommodation experiences, particularly those interested in tiny homes. The app is also targeted at property owners who want to manage bookings and listings efficiently.
+The target audience for Yallambee Tiny Homes primarily includes young, professional couples from Sydney and Canberra who are seeking a unique and tranquil getaway. These travelers are looking for a chance to disconnect from their busy lives and enjoy a peaceful stay in a beautiful, off-grid tiny home. Additionally, the app is designed to cater to the owners of Yallambee, who wish to efficiently manage bookings, listings, and guest interactions through a more controlled and personalised platform.
 
 ### Tech Stack
 
