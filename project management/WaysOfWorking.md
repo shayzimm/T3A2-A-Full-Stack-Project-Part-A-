@@ -2,7 +2,7 @@
 
 ## Full Stack Group Project: Tiny Home Booking Platform
 
-### Team: Jonathon, Jemma, Shay
+### Team: Jonathan, Jemma, Shay
 
 ## Introduction
 
