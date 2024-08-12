@@ -4,14 +4,24 @@
 
 ### Purpose
 
-The Tiny Home Accommodation Booking App is designed to provide a seamless platform for users to browse and book stays at tiny homes. The app allows users to explore available properties, check availability, make bookings, and manage their reservations. Admin users can manage property listings, bookings, and user profiles.
+The Yallambee Tiny Homes Accommodation Booking App is designed to provide a seamless platform for users to browse and book stays in a unique tiny home. While Yallambee is currently available through Airbnb, this app will offer greater control over bookings, allowing the client to provide a more personalised and direct experience for their guests. The app empowers guests to explore the Yallambee property, check availability, make bookings, and manage their reservations effortlessly, all in one place.
+
+For admin users, the platform offers robust tools to manage property listings, oversee bookings, and maintain user profiles, ensuring that the operations of Yallambee Tiny Homes are handled smoothly and efficiently. By transitioning to their own booking system, the client aims to enhance the guest experience and streamline their business operations, providing a tailored service that aligns with the unique and tranquil nature of Yallambee.
 
 ### Functionality / Features
 
+#### MVP
+
 - **User Authentication**: Users can register, log in, and manage their profiles.
-- **Property Listings**: Users can view available properties, including details such as price, location, and amenities.
-- **Booking System**: Users can book properties by selecting available dates and processing payments.
+- **Property Listing/s**: Users can view available properties (one, initially), including details such as price, location, and amenities.
+- **Booking System**: Users can make a reservation by selecting available dates and processing payments (payments are a stretch goal).
 - **Admin Dashboard**: Admins can add, update, and delete property listings, manage bookings, and oversee user accounts.
+
+#### Stretch
+
+- **Payment Integration**: Users can securely process payments for their reservations through a third-party payment gateway.
+- **User Reviews and Ratings**: Users can leave reviews and rate their stay after completing a booking. Admins will have the ability to moderate reviews to ensure appropriate content is displayed.
+- **Notifications**: Users will receive email or SMS notifications for booking confirmations, payment receipts, and reminders. Admins will also receive notifications for new bookings and cancellations, ensuring they are always up-to-date with the latest activities on the platform.
 
 ### Target Audience
 
