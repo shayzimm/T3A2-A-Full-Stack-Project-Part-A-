@@ -633,6 +633,8 @@ Our Kanban Board can be seen [here](https://trello.com/invite/b/66b2f86152f9d00b
 - **Initial Setup**
   ![Trello Board Initial Setup](images/Kanban_screenshots/Initial-kanban-setup-120824.PNG)
   ![Trello Board Initial Setup with README powerup](images/Kanban_screenshots/Initial-Kanban-with-readme-power-up.PNG)
+- **Refined Setup**
+  ![Trello Board Refined Setup](images/Kanban_screenshots/Kanban-refined-130824.PNG)
 - **Mid-Project Progress**
   ![Trello Board Mid-Project](path/to/trello-board-mid-project.png)
 - **Final Task Completion**
