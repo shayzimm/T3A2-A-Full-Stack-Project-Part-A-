@@ -48,6 +48,7 @@
     - [9. Search and Filter](#9-search-and-filter)
   - [R5: Wireframes](#r5-wireframes)
     - [Wireframes](#wireframes)
+    - [Typography and Colours](#typography-and-colours)
   - [R6: Project Management](#r6-project-management)
     - [Trello Board](#trello-board)
     - [Screenshots](#screenshots)
@@ -617,6 +618,14 @@ Wireframes provide a visual representation of the app's layout for various scree
   ![Admin Dashboard Wireframe](path/to/admin-dashboard-wireframe.png)
 
 *Include explanations of the design decisions, user flow, and how the wireframes meet the project requirements.*
+
+### Typography and Colours
+
+- **Typography**
+  ![Typography](images/colours_typography/Typography-1.png)
+
+- **Colours**
+  ![Colours](images/colours_typography/colours-1.png)
 
 ---
 
