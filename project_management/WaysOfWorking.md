@@ -1,6 +1,6 @@
 # Ways of Working
 
-## Full Stack Group Project: Tiny Home Booking Platform
+## Full Stack Group Project: Yallambee Tiny Homes Booking Platform
 
 ### Team: Jonathan, Jemma, Shay
 

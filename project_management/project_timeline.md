@@ -220,7 +220,7 @@
   - [ ] Deploy the application to a cloud hosting service (e.g., AWS, Heroku).
   - [ ] Perform final testing in the production environment.
   - [ ] Ensure that all services (frontend, backend, database) are fully operational.
-  - [ ] Finalize the README with details about the setup, deployment, and API documentation.
+  - [ ] Finalise the README with details about the setup, deployment, and API documentation.
 
 - **Presentation Preparation**:
   - [ ] Prepare a detailed presentation covering the project overview, key features, challenges, and solutions.
@@ -236,7 +236,7 @@
 
 **Task**: Final Documentation and Review
 
-- [ ] Finalize all project documentation, including the user manual, API documentation, and developer notes.
+- [ ] Finalise all project documentation, including the user manual, API documentation, and developer notes.
 - [ ] Review the entire project to ensure that all requirements have been met.
 - [ ] Submit the final project before the deadline.
 

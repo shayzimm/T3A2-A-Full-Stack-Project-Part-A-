@@ -174,7 +174,7 @@ Mobiel-first design, desktop and tablet
 - Payment Options: Multiple payment methods (credit card, PayPal, etc.) with secure input fields.
 - Billing Information: Fields for billing address and other relevant details.
 - Security Assurance: Display security badges and assurances to build user confidence (e.g., "Secure Payment with Stripe").
-- Confirmation: A "Pay Now" or "Confirm Booking" button to finalize the booking.
+- Confirmation: A "Pay Now" or "Confirm Booking" button to finalise the booking.
 
 **7. Booking Confirmation**
 
@@ -193,14 +193,14 @@ Mobiel-first design, desktop and tablet
 **Key Elements:**
 
 - User Dashboard: Access to a user dashboard where they can view upcoming and past bookings, edit their profile, and manage their preferences.
-- Promotional Offers: Display of personalized offers or recommendations for future stays.
+- Promotional Offers: Display of personalised offers or recommendations for future stays.
 - Social Sharing: Options to share their booking or experience on social media.
 
 #### Key Considerations for the Ideal User Journey:
 
 - Seamless Navigation: Ensure that each step is easy to follow, with clear navigation and prompts guiding the user forward.
 - Responsiveness: The site should be fully responsive, providing a consistent experience across devices (desktop, tablet, mobile).
-- Minimal Friction: Reduce the number of steps or clicks required to complete the booking. Ensure forms are simple, and data entry is minimized.
+- Minimal Friction: Reduce the number of steps or clicks required to complete the booking. Ensure forms are simple, and data entry is minimised.
 - Trust Building: Incorporate elements that build trust, such as user reviews, secure payment badges, and transparent pricing.
 - Feedback and Confirmation: Provide immediate feedback at each stage, especially during availability checks and after payment, to reassure the user that their actions are successful.
 
