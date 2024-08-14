@@ -622,7 +622,7 @@ Wireframes provide a visual representation of the app's layout for various scree
 ### Typography and Colours
 
 - **Typography**
-  ![Typography](images/colours_typography/Typography-1.png)
+  ![Typography](images/colours_typography/updated-type.png)
 
 - **Colours**
   ![Colours](images/colours_typography/colours-1.png)
