@@ -606,16 +606,53 @@ Wireframes provide a visual representation of the app's layout for various scree
 
 ### Wireframes
 
+#### Desktop
+
 - **Homepage**
-  ![Homepage Wireframe](path/to/homepage-wireframe.png)
+  ![Homepage Wireframe](images/wireframes/homepage-wireframe-desktop.png)
 - **Property Listing Page**
-  ![Property Listing Wireframe](path/to/property-listing-wireframe.png)
+  ![Property Listing Wireframe](images/wireframes/property-listing-wireframe-desktop.png)
 - **Booking Page**
-  ![Booking Page Wireframe](path/to/booking-page-wireframe.png)
+  ![Booking Page Wireframe](images/wireframes/booking-wireframe-desktop.png)
+- **Payment Page** 
+  ![Payment Page Wireframe](images/wireframes/payment-wireframe-desktop.png)
 - **User Profile Page**
-  ![User Profile Wireframe](path/to/user-profile-wireframe.png)
+  ![User Profile Wireframe](images/wireframes/user-profile-wireframe-desktop.png)
 - **Admin Dashboard**
-  ![Admin Dashboard Wireframe](path/to/admin-dashboard-wireframe.png)
+  ![Admin Dashboard Wireframe](images/wireframes/admin-dashboard-wireframe-desktop.png)
+
+#### Tablet
+
+- **Homepage**
+  ![Homepage Wireframe](images/wireframes/homepage-wireframe-tablet.png)
+- **Property Listing Page**
+  ![Property Listing Wireframe](images/wireframes/property-listing-wireframe-tablet.png)
+- **Booking Page**
+  ![Booking Page Wireframe](images/wireframes/booking-wireframe-tablet.png)
+- **Payment Page** 
+  ![Payment Page Wireframe](images/wireframes/payment-wireframe-tablet.png)
+- **User Profile Page**
+  ![User Profile Wireframe](images/wireframes/user-profile-wireframe-tablet.png)
+- **Admin Dashboard**
+  ![Admin Dashboard Wireframe](images/wireframes/admin-dashboard-wireframe-tablet.png)
+  
+#### Mobile
+
+- **Homepage**
+  ![Homepage Wireframe](images/wireframes/homepage-wireframe-mobile.png)
+- **Navbar**
+  ![Navbar Wireframe](images/wireframes/navbar-wireframe-mobile.png)
+- **Property Listing Page**
+  ![Property Listing Wireframe](images/wireframes/property-listing-wireframe-mobile.png)
+- **Booking Page**
+  ![Booking Page Wireframe](images/wireframes/booking-wireframe-mobile.png)
+- **Payment Page** 
+  ![Payment Page Wireframe](images/wireframes/payment-wireframe-mobile.png)
+- **User Profile Page**
+  ![User Profile Wireframe](images/wireframes/user-profile-wireframe-mobile.png)
+- **Admin Dashboard**
+  ![Admin Dashboard Wireframe](images/wireframes/admin-dashboard-wireframe-mobile.png)
+
 
 *Include explanations of the design decisions, user flow, and how the wireframes meet the project requirements.*
 
