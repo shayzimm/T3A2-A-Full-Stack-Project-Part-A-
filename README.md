@@ -606,53 +606,24 @@ Wireframes provide a visual representation of the app's layout for various scree
 
 ### Wireframes
 
-#### Desktop
-
 - **Homepage**
-  ![Homepage Wireframe](images/wireframes/homepage-wireframe-desktop.png)
+  ![Homepage Wireframe](images/wireframes/homepage-wireframe.PNG)
 - **Property Listing Page**
-  ![Property Listing Wireframe](images/wireframes/property-listing-wireframe-desktop.png)
+  ![Property Listing Wireframe](images/wireframes/property-listing-wireframe.PNG)
 - **Booking Page**
-  ![Booking Page Wireframe](images/wireframes/booking-wireframe-desktop.png)
+  ![Booking Page Wireframe](images/wireframes/booking-page-wireframe.PNG)
 - **Payment Page** 
-  ![Payment Page Wireframe](images/wireframes/payment-wireframe-desktop.png)
+  ![Payment Page Wireframe](images/wireframes/payment-page-wireframe.PNG)
+  - **Review Page** 
+  ![Review Page Wireframe](images/wireframes/review-page-wireframe.PNG)
+  - **Create Account Page** 
+  ![Create Account Page Wireframe](images/wireframes/create-account-page-wireframe.PNG)
+  - **Login Page** 
+  ![Login Page Wireframe](images/wireframes/login-page-wireframe.PNG)
 - **User Profile Page**
-  ![User Profile Wireframe](images/wireframes/user-profile-wireframe-desktop.png)
+  ![User Profile Wireframe](images/wireframes/user-profile-wireframe.PNG)
 - **Admin Dashboard**
-  ![Admin Dashboard Wireframe](images/wireframes/admin-dashboard-wireframe-desktop.png)
-
-#### Tablet
-
-- **Homepage**
-  ![Homepage Wireframe](images/wireframes/homepage-wireframe-tablet.png)
-- **Property Listing Page**
-  ![Property Listing Wireframe](images/wireframes/property-listing-wireframe-tablet.png)
-- **Booking Page**
-  ![Booking Page Wireframe](images/wireframes/booking-wireframe-tablet.png)
-- **Payment Page** 
-  ![Payment Page Wireframe](images/wireframes/payment-wireframe-tablet.png)
-- **User Profile Page**
-  ![User Profile Wireframe](images/wireframes/user-profile-wireframe-tablet.png)
-- **Admin Dashboard**
-  ![Admin Dashboard Wireframe](images/wireframes/admin-dashboard-wireframe-tablet.png)
-  
-#### Mobile
-
-- **Homepage**
-  ![Homepage Wireframe](images/wireframes/homepage-wireframe-mobile.png)
-- **Navbar**
-  ![Navbar Wireframe](images/wireframes/navbar-wireframe-mobile.png)
-- **Property Listing Page**
-  ![Property Listing Wireframe](images/wireframes/property-listing-wireframe-mobile.png)
-- **Booking Page**
-  ![Booking Page Wireframe](images/wireframes/booking-wireframe-mobile.png)
-- **Payment Page** 
-  ![Payment Page Wireframe](images/wireframes/payment-wireframe-mobile.png)
-- **User Profile Page**
-  ![User Profile Wireframe](images/wireframes/user-profile-wireframe-mobile.png)
-- **Admin Dashboard**
-  ![Admin Dashboard Wireframe](images/wireframes/admin-dashboard-wireframe-mobile.png)
-
+  ![Admin Dashboard Wireframe](images/wireframes/admin-dashboard-wireframe.PNG)
 
 *Include explanations of the design decisions, user flow, and how the wireframes meet the project requirements.*
 
