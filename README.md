@@ -607,15 +607,23 @@ Wireframes provide a visual representation of the app's layout for various scree
 ### Wireframes
 
 - **Homepage**
-  ![Homepage Wireframe](path/to/homepage-wireframe.png)
+  ![Homepage Wireframe](images/wireframes/homepage-wireframe.PNG)
 - **Property Listing Page**
-  ![Property Listing Wireframe](path/to/property-listing-wireframe.png)
+  ![Property Listing Wireframe](images/wireframes/property-listing-wireframe.PNG)
 - **Booking Page**
-  ![Booking Page Wireframe](path/to/booking-page-wireframe.png)
+  ![Booking Page Wireframe](images/wireframes/booking-page-wireframe.PNG)
+- **Payment Page** 
+  ![Payment Page Wireframe](images/wireframes/payment-page-wireframe.PNG)
+  - **Review Page** 
+  ![Review Page Wireframe](images/wireframes/review-page-wireframe.PNG)
+  - **Create Account Page** 
+  ![Create Account Page Wireframe](images/wireframes/create-account-page-wireframe.PNG)
+  - **Login Page** 
+  ![Login Page Wireframe](images/wireframes/login-page-wireframe.PNG)
 - **User Profile Page**
-  ![User Profile Wireframe](path/to/user-profile-wireframe.png)
+  ![User Profile Wireframe](images/wireframes/user-profile-wireframe.PNG)
 - **Admin Dashboard**
-  ![Admin Dashboard Wireframe](path/to/admin-dashboard-wireframe.png)
+  ![Admin Dashboard Wireframe](images/wireframes/admin-dashboard-wireframe.PNG)
 
 *Include explanations of the design decisions, user flow, and how the wireframes meet the project requirements.*
 
