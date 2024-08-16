@@ -93,7 +93,7 @@ The target audience for Yallambee Tiny Homes primarily includes young, professio
 - **Frontend**: React.js, Tailwind CSS
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Authentication**: Passport.js, JWT
+- **Authentication**: JWT
 - **Payment Processing**: Stripe, PayPal
 - **Notifications**: Nodemailer (Email), Twilio (SMS)
 
@@ -101,7 +101,7 @@ The target audience for Yallambee Tiny Homes primarily includes young, professio
 
 ## R2: Dataflow Diagram
 
-The Dataflow Diagram represents the flow of data within the Tiny Home Accommodation Booking App. It includes the processes that interact with data inputs and outputs, as well as data storage.
+The Dataflow Diagram represents the flow of data within our booking app. It includes the processes that interact with data inputs and outputs, as well as data storage.
 
 ### 0 DFD (Context Diagram)
 
@@ -273,7 +273,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
   - **Optional:** Redux for complex state management.
 
 - **UI Design:**
-  - **CSS:** 
+  - **CSS:**
 
 - **Integration:**
   - Connects to backend APIs for authentication, bookings, and reviews.
@@ -614,18 +614,16 @@ Wireframes provide a visual representation of the app's layout for various scree
   ![Booking Page Wireframe](images/wireframes/booking-page-wireframe.PNG)
 - **Payment Page** 
   ![Payment Page Wireframe](images/wireframes/payment-page-wireframe.PNG)
-  - **Review Page** 
+- **Review Page** 
   ![Review Page Wireframe](images/wireframes/review-page-wireframe.PNG)
-  - **Create Account Page** 
+- **Create Account Page** 
   ![Create Account Page Wireframe](images/wireframes/create-account-page-wireframe.PNG)
-  - **Login Page** 
+- **Login Page** 
   ![Login Page Wireframe](images/wireframes/login-page-wireframe.PNG)
 - **User Profile Page**
   ![User Profile Wireframe](images/wireframes/user-profile-wireframe.PNG)
 - **Admin Dashboard**
   ![Admin Dashboard Wireframe](images/wireframes/admin-dashboard-wireframe.PNG)
-
-*Include explanations of the design decisions, user flow, and how the wireframes meet the project requirements.*
 
 ### Typography and Colours
 
@@ -652,12 +650,8 @@ Our Kanban Board can be seen [here](https://trello.com/invite/b/66b2f86152f9d00b
   ![Trello Board Initial Setup with README powerup](images/Kanban_screenshots/Initial-Kanban-with-readme-power-up.PNG)
 - **Refined Setup**
   ![Trello Board Refined Setup](images/Kanban_screenshots/Kanban-refined-130824.PNG)
-- **Mid-Project Progress**
-  ![Trello Board Mid-Project](path/to/trello-board-mid-project.png)
-- **Final Task Completion**
-  ![Trello Board Final](path/to/trello-board-final.png)
-
-*Include a brief explanation of how the Trello board was used to manage the project timeline and task assignments.*
+- **Part A Tasks Done**
+  ![Trello Board with Part A tasks 'Done'](images/Kanban_screenshots/update160824.PNG)
 
 ### Project Timeline
 
@@ -685,9 +679,39 @@ Our draft API specs can be found [here](project_management/API_specs.md).
 
 ### References
 
-- **Technology Documentation**: Links to documentation for React.js, Node.js, MongoDB, etc.
-- **Design Tools**: Figma
-- **Project Management**: Trello
+- JavaScript, 2023. *JavaScript Documentation*. [online] Available at: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide>
+
+- TypeScript, 2023. *TypeScript Documentation*. [online] Available at: <https://www.typescriptlang.org/docs/>
+
+- MongoDB, 2023. *MongoDB Documentation*. [online] Available at: <https://docs.mongodb.com/>
+
+- Mongoose, 2023. *Mongoose Documentation*. [online] Available at: <https://mongoosejs.com/docs/>
+
+- Express.js, 2023. *Express.js Documentation*. [online] Available at: <https://expressjs.com/>
+
+- Express.js, 2023. *Using Middleware*. [online] Available at: <https://expressjs.com/en/guide/using-middleware.html>
+
+- React, 2023. *React Documentation*. [online] Available at: <https://reactjs.org/docs/getting-started.html>
+
+- React Router, 2023. *React Router Documentation*. [online] Available at: <https://reactrouter.com/>
+
+- Testing Library, 2023. *React Testing Library Documentation*. [online] Available at: <https://testing-library.com/docs/react-testing-library/intro/>
+
+- Node.js, 2023. *Node.js Documentation*. [online] Available at: <https://nodejs.org/en/docs/>
+
+- NPM, 2023. *NPM Documentation*. [online] Available at: <https://docs.npmjs.com/>
+
+- JWT, 2023. *JWT Introduction*. [online] Available at: <https://jwt.io/introduction/>
+
+- Stripe, 2023. *Stripe API Documentation*. [online] Available at: <https://stripe.com/docs/api>
+
+- Nodemailer, 2023. *Nodemailer Documentation*. [online] Available at: <https://nodemailer.com/about/>
+
+- Twilio, 2023. *Twilio SMS API Documentation*. [online] Available at: <https://www.twilio.com/docs/sms>
+
+- Netlify, 2023. *Netlify Documentation*. [online] Available at: <https://docs.netlify.com/>
+
+- Trello, 2023. *Trello Guide*. [online] Available at: <https://trello.com/en/guide> [Accessed 11 August 2024].
 
 ### Contributors
 
