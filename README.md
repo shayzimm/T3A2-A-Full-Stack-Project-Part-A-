@@ -625,8 +625,6 @@ Wireframes provide a visual representation of the app's layout for various scree
 - **Admin Dashboard**
   ![Admin Dashboard Wireframe](images/wireframes/admin-dashboard-wireframe.PNG)
 
-*Include explanations of the design decisions, user flow, and how the wireframes meet the project requirements.*
-
 ### Typography and Colours
 
 - **Typography**
