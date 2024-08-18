@@ -107,7 +107,7 @@ The Dataflow Diagram represents the flow of data within our booking app. It incl
 
 #### Purpose
 
-![Dataflow Diagram 0](images/DFD_AAD/DFD_0.png)
+![Dataflow Diagram 0](docs/images/DFD_AAD/DFD_0.png)
 
 The 0 DFD provides a high-level overview of the system, showing the interactions between external entities and the web application.
 
@@ -153,7 +153,7 @@ The 0 DFD provides a high-level overview of the system, showing the interactions
 
 ### 1 DFD (Level 1 DFD)
 
-![Dataflow Diagram 1](images/DFD_AAD/DFD_1.png)
+![Dataflow Diagram 1](docs/images/DFD_AAD/DFD_1.png)
 
 #### Purpose
 
@@ -251,7 +251,7 @@ The Application Architecture Diagram outlines the high-level structure of the ap
 
 ### Diagram
 
-![Application Architecture Diagram](images/DFD_AAD/AAD.png)
+![Application Architecture Diagram](docs/images/DFD_AAD/AAD.png)
 
 ### Overview
 
@@ -273,7 +273,7 @@ Application Architecture Diagram outlines the high-level structure of Full Stack
   - **Optional:** Redux for complex state management.
 
 - **UI Design:**
-  - **CSS:**
+  - **CSS:** Tailwind or Bootstrap.
 
 - **Integration:**
   - Connects to backend APIs for authentication, bookings, and reviews.
@@ -607,31 +607,31 @@ Wireframes provide a visual representation of the app's layout for various scree
 ### Wireframes
 
 - **Homepage**
-  ![Homepage Wireframe](images/wireframes/homepage-wireframe.PNG)
+  ![Homepage Wireframe](docs/images/wireframes/homepage-wireframe.PNG)
 - **Property Listing Page**
-  ![Property Listing Wireframe](images/wireframes/property-listing-wireframe.PNG)
+  ![Property Listing Wireframe](docs/images/wireframes/property-listing-wireframe.PNG)
 - **Booking Page**
-  ![Booking Page Wireframe](images/wireframes/booking-page-wireframe.PNG)
+  ![Booking Page Wireframe](docs/images/wireframes/booking-page-wireframe.PNG)
 - **Payment Page** 
-  ![Payment Page Wireframe](images/wireframes/payment-page-wireframe.PNG)
+  ![Payment Page Wireframe](docs/images/wireframes/payment-page-wireframe.PNG)
 - **Review Page** 
-  ![Review Page Wireframe](images/wireframes/review-page-wireframe.PNG)
+  ![Review Page Wireframe](docs/images/wireframes/review-page-wireframe.PNG)
 - **Create Account Page** 
-  ![Create Account Page Wireframe](images/wireframes/create-account-page-wireframe.PNG)
+  ![Create Account Page Wireframe](docs/images/wireframes/create-account-page-wireframe.PNG)
 - **Login Page** 
-  ![Login Page Wireframe](images/wireframes/login-page-wireframe.PNG)
+  ![Login Page Wireframe](docs/images/wireframes/login-page-wireframe.PNG)
 - **User Profile Page**
-  ![User Profile Wireframe](images/wireframes/user-profile-wireframe.PNG)
+  ![User Profile Wireframe](docs/images/wireframes/user-profile-wireframe.PNG)
 - **Admin Dashboard**
-  ![Admin Dashboard Wireframe](images/wireframes/admin-dashboard-wireframe.PNG)
+  ![Admin Dashboard Wireframe](docs/images/wireframes/admin-dashboard-wireframe.PNG)
 
 ### Typography and Colours
 
 - **Typography**
-  ![Typography](images/colours_typography/updated-type.png)
+  ![Typography](docs/images/colours_typography/updated-type.png)
 
 - **Colours**
-  ![Colours](images/colours_typography/colours-1.png)
+  ![Colours](docs/images/colours_typography/colours-1.png)
 
 ---
 
@@ -646,32 +646,32 @@ Our Kanban Board can be seen [here](https://trello.com/invite/b/66b2f86152f9d00b
 ### Screenshots
 
 - **Initial Setup**
-  ![Trello Board Initial Setup](images/Kanban_screenshots/Initial-kanban-setup-120824.PNG)
-  ![Trello Board Initial Setup with README powerup](images/Kanban_screenshots/Initial-Kanban-with-readme-power-up.PNG)
+  ![Trello Board Initial Setup](docs/images/Kanban_screenshots/Initial-kanban-setup-120824.PNG)
+  ![Trello Board Initial Setup with README powerup](docs/images/Kanban_screenshots/Initial-Kanban-with-readme-power-up.PNG)
 - **Refined Setup**
-  ![Trello Board Refined Setup](images/Kanban_screenshots/Kanban-refined-130824.PNG)
+  ![Trello Board Refined Setup](docs/images/Kanban_screenshots/Kanban-refined-130824.PNG)
 - **Part A Tasks Done**
-  ![Trello Board with Part A tasks 'Done'](images/Kanban_screenshots/update160824.PNG)
+  ![Trello Board with Part A tasks 'Done'](docs/images/Kanban_screenshots/update160824.PNG)
 
 ### Project Timeline
 
-As a team, we created a prospective [timeline](project_management/project_timeline.md) to help us stay on track with our tasks and better manage the project.
+As a team, we created a prospective [timeline](docs/project_management/project_timeline.md) to help us stay on track with our tasks and better manage the project.
 
 ### Ways of Working
 
-We developed a Ways of Working document to enhance communication, collaboration, and efficiency within our team. We wanted to establish that everyone is aligned and working towards the same goals, with clear processes in place to support successful project completion. Please see [here](project_management/WaysOfWorking.md).
+We developed a Ways of Working document to enhance communication, collaboration, and efficiency within our team. We wanted to establish that everyone is aligned and working towards the same goals, with clear processes in place to support successful project completion. Please see [here](docs/project_management/WaysOfWorking.md).
 
 ### GitHub Workflow
 
-We have outlined our GitHub workflow and branching stategy [here](.github/step-by-step-github-workflow.md).
+We have outlined our GitHub workflow and branching stategy [here](docs/.github/step-by-step-github-workflow.md).
 
 ### Client Feedback
 
-We collated feedback and ideas from our client [here](project_management/client_feedback.md). This document will be used throughout the project and iterated with client feedback as the project progresses.
+We collated feedback and ideas from our client [here](docs/project_management/client_feedback.md). This document will be used throughout the project and iterated with client feedback as the project progresses.
 
 ### API Specifications
 
-Our draft API specs can be found [here](project_management/API_specs.md).
+Our draft API specs can be found [here](docs/project_management/API_specs.md).
 
 ---
 
